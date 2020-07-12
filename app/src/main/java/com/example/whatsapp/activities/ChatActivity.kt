@@ -283,6 +283,7 @@ class ChatActivity : AppCompatActivity(), View.OnClickListener {
 
                             if (mUserReceiver != UserModel("", "", "", "", "")) {
 
+                                //save message
                                 val message = MessageModel()
                                 message.userId = senderId
                                 message.message = "image.jpeg"
